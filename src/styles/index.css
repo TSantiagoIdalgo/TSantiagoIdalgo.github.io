@@ -1,0 +1,15 @@
+* {
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --color-base: #272727;
+    --color-primary: #ff5400;
+    --color-secondary: #ffa700;
+
+}

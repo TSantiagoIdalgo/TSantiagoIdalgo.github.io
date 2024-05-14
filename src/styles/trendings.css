@@ -1,0 +1,22 @@
+.trends {
+    width: 100%;
+    min-height: 80vh;
+    height: 100%;
+    padding: 20px 30px;
+    background-color: var(--color-base);
+    padding-bottom: 100px;
+}
+
+.title {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.trends_cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: -15px;
+    position: relative;
+    margin-top: 25px;
+}

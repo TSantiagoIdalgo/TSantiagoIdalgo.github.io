@@ -1,0 +1,83 @@
+.main {
+    height: 100vh;
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.gradient {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 60%;
+    height: 80vh;
+    z-index: 1;
+}
+
+.clip_path {
+    background: var(--color-base);
+    bottom: -1px;
+    clip-path: polygon(0 0, 100% 76%, 100% 100%, 0% 100%);
+    height: 60px;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+.product_data {
+    align-items: flex-end;
+    display: flex;
+    align-self: center;
+    max-width: 1200px;
+    width: 100%;
+    z-index: 10;
+    gap: 10px;
+    z-index: 50;
+    padding: 20px 30px;
+
+}
+
+.product_data h2 {
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 2rem;
+    color: #fff;
+    width: 50%;
+}
+
+
+#banner-extra {
+    height: 100vh;
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.clip_path_extra {
+    background: #000;
+    bottom: -1px;
+    clip-path: polygon(0 76%, 100% 0, 100% 100%, 0% 100%);
+    height: 60px;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
