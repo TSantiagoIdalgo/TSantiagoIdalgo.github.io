@@ -26,7 +26,7 @@ function renderImages(imageUrls, containerId) {
 
         imgTittle.innerText = url.title;
 
-        imgRowIcon.src = '../../../public/assets/icon/row-to-bottom.png';
+        imgRowIcon.src = '../../../assets/icon/row-to-bottom.png';
         imgRowIcon.alt = 'row to bottom';
 
         container.appendChild(imgElement);

@@ -1,18 +1,18 @@
 const imageUrl = [
     {
-        url: '../../../public/assets/icon/menu/pc.webp',
+        url: '../../../assets/icon/menu/pc.webp',
         title: 'PC'
     },
     {
-        url: '../../../public/assets/icon/menu/ps.webp',
+        url: '../../../assets/icon/menu/ps.webp',
         title: 'PlayStation'
     },
     {
-        url: '../../../public/assets/icon/menu/xbox.webp',
+        url: '../../../assets/icon/menu/xbox.webp',
         title: 'Xbox'
     },
     {
-        url: '../../../public/assets/icon/menu/nintendo.webp',
+        url: '../../../assets/icon/menu/nintendo.webp',
         title: 'Nintendo'
     }
 ]
@@ -38,7 +38,7 @@ window.addEventListener('DOMContentLoaded', () => {
         const img = document.createElement('img')
         img.className = 'search_icon';
         img.id = 'search-icon';
-        img.src = '../../../public/assets/icon/menu/search-regular-240.png'
+        img.src = '../../../assets/icon/menu/search-regular-240.png'
         img.alt = 'search icon'
 
         searchButton.appendChild(img)
